@@ -1,0 +1,15 @@
+
+
+
+git clone url
+
+git status
+git add .
+git commit -m "mesaj"
+git push
+
+git pull
+
+git diff
+
+
