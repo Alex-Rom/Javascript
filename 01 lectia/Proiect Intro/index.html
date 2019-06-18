@@ -1,0 +1,44 @@
+<html>
+
+<head>
+   <!-- in diviziunea head sunt metainformatii si alte informatii -->
+</head>
+<body>
+
+	
+	
+	
+	<script> 
+	
+	// Tipuri de variabile:
+	// Primitive
+		var nume = "Marius"; // de tip string      // 2 bytes * numarul de caractere
+		var numar = 455.678;   // double precision floating point    64 biti, 8 bytes
+		var a;  // undefined - nu i-a fost setata nicio valoare. undefined este valoarea default.
+                // Consensul este sa nu atribuim niciodata acest keyword unei variabile.
+                // E important pentru debugging.				
+		var def = null; // variabila nu are nicio valoare, consensul este cand vrem noi sa nu mai aiba valoare,
+		                // sa ii atribuim noi null, niciodata undefined.
+		var da = true; var nu = false; // boolean 
+		// tip de variabila symbol pt cheile (atribute) din obiecte incepand cu EcmaScript 6 (= JS 6)
+	
+	// Obiecte
+		var obiectulMeu = {};   // acolade
+						
+		function functiaMeaCareReturneaza(a, b){
+			return a * b;
+		}
+		
+		function functiaMeaCareNuReturneaza(a, b){
+			console.log("functiaMeaCareNuReturneaza " + a * b);
+		}
+		
+		var rezultat = functiaMeaCareReturneaza(34, 5.1);
+		console.log(rezultat);
+		
+		functiaMeaCareNuReturneaza(999999, 123E3);   // 123 x 10 la puterea 3  
+		
+	</script>
+	     
+</body>
+</html>

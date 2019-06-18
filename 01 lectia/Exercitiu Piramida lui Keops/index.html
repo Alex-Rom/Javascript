@@ -1,0 +1,62 @@
+
+<html>
+
+<head>
+</head>
+
+
+<body>
+
+
+
+
+<script>
+
+	// Piramida lui Keops: are baza un patrat cu latura de 230m si inaltimea de 139 m.
+	// Blocurile sunt cuburi cu latura de 1.05 m.
+	// Cate blocuri are piramida?
+	// Volum piramaida = lungime x latime x inaltime / 3.
+	
+	// functie care calculeaza volumul unui cub.
+	function volBloc(l, w, h){
+	    return l * w * h;
+	}
+	
+	// functie care calculeaza volumul piramidei.
+	function volPiramida(l, w, h){
+	    return l * w * h / 3;
+	}
+		
+	// functie care calculeaza numarul de cuburi.
+	function numarCuburi(volBloc, volPiram){
+		return volPiram / volBloc;	
+	}
+	
+	// functie care afiseaza in consola date.
+	function afiseaza(text, x){
+		console.log(text + " " + x);
+	}
+	
+	var volumBloc = volBloc(1.05, 1.05, 1.05);
+	afiseaza("Volumul unui bloc este: ", volumBloc);
+		
+	var volumPiram = volPiramida(230, 230, 139);
+	afiseaza("Volumul piramidei este: ", volumPiram);
+	
+	var numCub = numarCuburi(volumBloc, volumPiram);
+	afiseaza("Numarul de cuburi este: ", numCub);
+
+	
+	afiseaza("2 Numarul de cuburi este: ", numarCuburi(volBloc(1.05, 1.05, 1.05), volPiramida(230, 230, 139)));
+	
+	
+	
+
+</script>
+
+</body>
+
+
+
+
+</html>
