@@ -1,0 +1,41 @@
+
+Tema 1:
+
+- Definiti mai multe variabile si modificatile valoarea lor, faceti-le stringuri, numere, booleeni, obiecte.
+- Intrebare capcana: daca e boolean, care e valoarea default?
+
+Tema 2:
+De citit:
+
+- https://www.w3schools.com/js/js_statements.asp
+- https://www.w3schools.com/js/js_syntax.asp
+si 
+- https://www.w3schools.com/js/js_operators.asp
+
+Tema 3:
+Pe baza la js_statements.asp > JavaScript Keywords:
+O bucla for arata asa: for(var i=0; i<100; i++){...}
+
+Folosind o bucla for afisati in consola toate numerele pana la 100 cu exceptia lui 50 folosind keywordul continue.
+
+Folosind o bucla while afisati in consola toate numerele de la 100 la 0
+
+Folosind o bucla while afisati in consola toate numerele de la 100 la 0 cate 3 numere la fiecare iteratie
+Daca "i" este 34 iesiti din iteratie cu keywordul break.
+
+Tema 4 - pt Giani,
+Instaleaza te rog https://git-scm.com/downloads pt Windows daca ai Windows.
+La instalare, lasa optiunile default.
+
+Tema 5 - pt Giani si Andrei (optional pt Bogdan si Codrin):
+a) Scrieti o functie care primeste doua numere si returneaza true daca primul se imparte exact la cel de al doilea
+Folositi modulo (%) = restul impartirii
+b) Scrieti o functie care returneaza true daca un numar este prim:
+   Daca se imparte la 1 si la el insusi. Folositi functia anterioara. 
+   Mergeti pana la radical din numar, nu are rost sa mergeti mai mult.
+c) Scrieti o functie care afiseaza toate numerele prime pana la 1000
+   folosind functia anterioara.
+
+Spor!
+
+
