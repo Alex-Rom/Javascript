@@ -1,0 +1,51 @@
+
+
+
+<html>
+
+<head>
+<title>Lectia 2</title>
+</head>
+
+<body>
+	<div id="divulNostru">
+		<input id="culoare" type="text">
+		<p>Ceva</p>
+		<p id="altceva">Altceva</p>
+		<p>Altceva</p>
+		<p>Altceva</p>
+		<p>Altceva</p>
+		<p id="parag" style="background-color: red"></p>
+		<button id="buton" onclick="schimbaCuloarea();">Schimba culoarea</button>
+	</div>
+	<script>
+	
+		console.dir(document.getElementById("buton"));
+		console.dir(document.getElementById("parag"));
+		console.dir(document.getElementById("altceva"));
+	
+		function schimbaCuloarea(){
+			// Variabilele de tip obiect stocheaza adrese ale obiectelor
+			// Iar variabilele de tip primitiva stocheaza siruri de caractere, numere, booleeni, etc.
+			
+			var elementHtml = window.document.getElementById("culoare");
+				// elementHtml e o variabila in care vom stoca adresa obiectului de tip HTMLInputElement
+				// variabila elementHtml e de tip obiect
+			console.dir(elementHtml);
+			var culoare = elementHtml.value;
+				// o sa folosim o alta variabila pentru a stoca culoarea
+				// variabila culoare este o variabila primitiva de tip string 			
+		
+			var divulNostru = window.document.getElementById("divulNostru");
+			divulNostru.style.backgroundColor = culoare;
+			
+			var paragraf = window.document.getElementById("parag");
+			paragraf.innerHTML = culoare;
+			
+			
+		}
+	
+	</script>
+	
+</body>
+</html>
